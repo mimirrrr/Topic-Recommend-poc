@@ -1,0 +1,22 @@
+[
+  {
+    "id": "doc1",
+    "title": "Zákon o obecném řízení",
+    "text": "Toto je vzorový text zákona týkající se správního řízení. Upravuje postupy orgánů veřejné moci a práva účastníků řízení."
+  },
+  {
+    "id": "doc2",
+    "title": "Rozsudek Nejvyššího soudu - smluvní spory",
+    "text": "Rozsudek se týká výkladu smluvních ustanovení a odpovědnosti za porušení smlouvy mezi dvěma obchodními subjekty."
+  },
+  {
+    "id": "doc3",
+    "title": "Článek: Novely pracovního práva",
+    "text": "Článek přináší přehled novel v oblasti pracovního práva a jejich dopad na kolektivní smlouvy."
+  },
+  {
+    "id": "doc4",
+    "title": "Komentář k daňovému zákonu",
+    "text": "Komentář popisuje výklad daňových ustanovení a aplikační praxi finančních úřadů."
+  }
+]
