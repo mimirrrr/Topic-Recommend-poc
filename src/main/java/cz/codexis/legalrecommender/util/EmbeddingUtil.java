@@ -12,7 +12,7 @@ import java.util.List;
 
 public class EmbeddingUtil {
 
-    private static final String API_KEY = "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";
+    private static final String API_KEY = ""; //Nahrazeno za vlastní api klic
     private static final String MODEL = "text-embedding-3-small";
 
     public static List<Double> generateEmbedding(String text) {

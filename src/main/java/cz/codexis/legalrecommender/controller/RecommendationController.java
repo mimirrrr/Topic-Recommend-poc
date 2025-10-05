@@ -21,6 +21,6 @@ public class RecommendationController {
 
     @GetMapping("/recommend/{docId}")
     public List<RecommendationResult> recommend(@PathVariable("docId") String docId) {
-        return recommendationService.recommendSimilar(docId, 5);
+        return recommendationService.recommendSimilar(docId, 3);
     }
 }
