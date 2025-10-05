@@ -51,12 +51,15 @@ public class RecommendationService {
             InputStream is = getClass().getClassLoader().getResourceAsStream("documents.json");
             LegalDocument[] docs = mapper.readValue(is, LegalDocument[].class);
             for (LegalDocument d : docs) {
-                // Generate embedding (stub) - in real use call Gemini embeddings and store
                 d.setEmbedding(EmbeddingUtil.generateEmbedding(d.getText()));
                 documents.put(d.getId(), d);
             }
+
+            cz.codexis.legalrecommender.util.EmbeddingVisualizer.visualizeDocuments(documents);
+
         } catch (Exception e) {
             throw new RuntimeException("Failed to load documents", e);
         }
     }
+
 }

@@ -32,6 +32,20 @@
             <artifactId>jackson-databind</artifactId>
             <version>2.16.2</version>
         </dependency>
+        <!-- For chart generation -->
+        <dependency>
+            <groupId>org.knowm.xchart</groupId>
+            <artifactId>xchart</artifactId>
+            <version>3.8.5</version>
+        </dependency>
+
+        <!-- For PCA / matrix math -->
+        <dependency>
+            <groupId>org.ejml</groupId>
+            <artifactId>ejml-simple</artifactId>
+            <version>0.43.1</version>
+        </dependency>
+
     </dependencies>
 
     <build>
